@@ -13,6 +13,7 @@ var saveList = {
 var URLWhiteList = [
     "www.stx-keyun.com"
 ]
+var SERVER_Interval_Time = 10;
 
 var is_exist_white_list = (url) => {
     var a =  document.createElement('a'); 
@@ -69,4 +70,4 @@ setInterval(() => {
     console.log(saveList)
     console.log(Object.keys(saveList).length)
     saveList = {}
-}, 5000)
+}, SERVER_Interval_Time * 1000)
