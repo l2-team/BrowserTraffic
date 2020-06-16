@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "流量爬虫",
+    "version": "1.0",
+    "description": "扫描器_浏览器扩展_测试",
+    "background": {
+        "scripts": ["js/bg.js"]
+    },
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
